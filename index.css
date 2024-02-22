@@ -1,0 +1,824 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.component
+{
+    height: 60px;
+    width: 100%;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.component img
+{
+    height: 50px;
+    width: 293.26px;
+    position: relative;
+    left: 50px;
+}
+.search_box
+{
+    height: 40px;
+    width: 260px;
+    /* border: 1px solid black; */
+    background-color: #EBEDF0;
+    border-radius: 8px 0px 0px 8px;
+    position: relative;
+    margin-left: 60px;
+    border: none;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.search_logo
+{
+    height: 40px;
+    width: 40px;
+    background-color: #8064A2;
+    border-radius: 0px 8px 8px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+.navbar
+{
+    position: relative;
+    height: 40px;
+    width: 525px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    left: 30px;
+    /* gap: 10px; */
+}
+.navbar .explore
+{
+    height: 24px;
+    width: 20.3%;
+    /* background-color: purple; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.navbar .hobbies
+{
+    height: 24px;
+    /* width: 20.3%; */
+    /* background-color: purple; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    left: -30px;
+    cursor: pointer;
+}
+.navbar .hobbies .circle
+{
+    height: 19px;
+    width: 19px;
+    border-radius: 50%;
+    background-color: #8064A2;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    color: white;
+    cursor: pointer;
+}
+.navbar .bookmark
+{
+    height: 24px;
+    width: 24px;
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: -40px;
+    cursor: pointer;
+}
+.navbar .notification
+{
+    height: 24px;
+    width: 24px;
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: -40px;
+    cursor: pointer;
+}
+.navbar .cart
+{
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: -40px;
+}
+.navbar .sign_in
+{
+    height: 40px;
+    width: 112px;
+    border-radius: 8px;
+    border: 1px solid #8064A2;
+    /* background-color: orange; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    left: -40px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.navbar .sign_in:hover
+{
+    background-color: rgb(150, 88, 150);
+    color: white;
+}
+#rectangle
+{
+    width: 100%;
+    height: 530px;
+    background-color: #F7F5F9;
+    display: flex;
+}
+#rectangle .rectangle1
+{
+    position: relative;
+    Width:50%;
+    Height:530px;
+    Top:60px;
+    Left:80px;
+    /* background-color:grey; */
+}
+.rectangle1 .text
+{
+    position: relative;
+    width: 80%;
+    height:54px;
+   
+    display: flex;
+    align-items: center;
+}
+.text span
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+}
+.content1
+{
+    width: 100%;
+    height: 80px;
+    /* background-color: red; */
+    position: relative;
+    top: 30px;
+    font-size: 14px;
+    font-weight: 300;
+    
+}
+.content2
+{
+    width: 100%;
+    height: 40px;
+    /* background-color: green; */
+    position: relative;
+    top: 40px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.pic img
+{
+    position: relative;
+    width: 100%;
+    top: 100px;
+
+}
+#rectangle .rectangle2
+{
+    position: relative;
+    Width:35%;
+    Height:400px;
+    Top:70px;
+    Left:100px;
+    /* background-color:grey; */
+    display: flex;
+    flex-direction: column;
+}
+.rectangle2 .sign_join
+{
+    width: 40%;
+    height: 34px;
+    /* background-color: lightseagreen; */
+    position: relative;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+.sign_join .common
+{
+    width: 67px;
+    cursor: pointer;
+    height: 30px;
+    /* background-color: purple; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.sign_join .common:hover
+{
+    border-bottom: solid 2px #8064A2;
+    color: #8064A2;
+    
+}
+
+.rectangle2 .google
+{
+    width: 100%;
+    height: 40px;
+    /* background-color: greenyellow; */
+    border-radius: 8px;
+    position: relative;
+    cursor: pointer;
+    top: 20px;
+    border: solid 1px #8064A2;
+    display: flex;
+    align-items: center;
+    font-size: 1.2vw;
+    font-weight: 600px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    
+}
+.rectangle2 .facebook
+{
+    width: 100%;
+    height: 40px;
+    /* background-color: greenyellow; */
+    border-radius: 8px;
+    border: solid 1px #8064A2;
+    position: relative;
+    top: 35px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.2vw;
+    font-weight: 600px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+}
+.rectangle2 .line
+{
+    height: 5px;
+    width: 100%;
+    /* background-color: green; */
+    position: relative;
+    top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.line .line1, .line2
+{
+    height: 1px;
+    width: 35%;
+    background-color: 
+    #CED4DA;
+}
+.rectangle2 .email
+{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    position: relative;
+    top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    color: #939CA3;
+    box-sizing: border-box;
+    padding-left: 20px;
+    font-size: 1vw;
+}
+.rectangle2 .password
+{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    position: relative;
+    top: 110px;
+    font-size: 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    color: #939CA3;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+.rectangle2 .forgot_password
+{
+    width: 100%;
+    height: 40px;
+    /* background-color: white; */
+    border-radius: 8px;
+    position: relative;
+    top: 130px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rectangle2 .continue
+{
+    width: 100%;
+    height: 40px;
+    /* background-color: white; */
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    top: 130px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    justify-content: center;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 1px #8064A2;
+}
+.rectangle-2
+{
+    height: 500px;
+    width: 100%;
+    /* background-color: goldenrod; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.rectangle-2 .rectangle-2-child
+{
+    height: 400px;
+    width: 70%;
+    /* background-color: greenyellow; */
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    
+
+}
+.rectangle-2-child .subchild
+{
+    height: 180px;
+    width: 45%;
+    /* background-color: red; */
+    border-radius: 4px;
+    border: solid 1.3px #CED4DA;
+    position: relative;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: 0.5s;
+    
+}
+.rectangle-2-child .s1 .people i{
+    color: #8064A2;
+}
+.rectangle-2 .rectangle-2-child .s1:hover
+{
+    background-color: #8064A2;
+    color: white;
+}
+.rectangle-2 .rectangle-2-child .s1:hover i {
+    color: white;
+}
+.rectangle-2 .rectangle-2-child .s1:hover .button{
+    border: solid 1px white;
+}
+.rectangle-2 .rectangle-2-child .s2:hover
+{
+    background-color:#77933C;
+    color: white;
+}
+.rectangle-2-child .s2 .place i{
+    color:#77933C;
+}
+.rectangle-2 .rectangle-2-child .s2:hover i {
+    color: white;
+}
+.rectangle-2 .rectangle-2-child .s2:hover .button{
+    border: solid 1px white;
+}
+.rectangle-2 .rectangle-2-child .s3:hover
+{
+    background-color: #C0504D;
+    color: white;
+}
+.rectangle-2 .rectangle-2-child .s3:hover i {
+    color: white;
+}
+.rectangle-2 .rectangle-2-child .s3:hover .button{
+    border: solid 1px white;
+}
+.rectangle-2-child .s3 .product i{
+    color:#C0504D;
+}
+
+.rectangle-2 .rectangle-2-child .s4:hover
+{
+    background-color: 
+    #0096C8;
+    color: white;
+}
+.rectangle-2 .rectangle-2-child .s4:hover i {
+    color: white;
+}
+.rectangle-2 .rectangle-2-child .s4:hover .button{
+    border: solid 1px white;
+}
+.rectangle-2-child .s4 .program i{
+    color:
+    #0096C8;
+}
+.subchild .common
+{
+    width: 40%;
+    height: 40px;
+    /* background-color: salmon; */
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+.subchild .common
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.subchild .content
+{
+    width: 90%;
+    height: 50px;
+    position: relative;
+    /* background-color: greenyellow; */
+    top: 30px;
+    left: 30px;
+    font-size: 1.1vmax;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subchild .button
+{
+    height: 35px;
+    width: 30%;
+    /* background-color: #8064A2; */
+    border: solid 1.5px #8064A2 ;
+    border-radius: 8px;
+    position: relative;
+    left: 30px;
+    top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+.add-your-own
+{
+    width: 100%;
+    height: 300px;
+    background-color: #edfaff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add-your-own .add
+{
+    width: 70%;
+    height:200px;
+    background-color: white;
+    border-radius: 4px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add .content
+{
+    height: 160px;
+    width: 90%;
+    /* background-color: red; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.add .content .logo
+{
+    width: 30%;
+    height: 40px;
+    /* background-color: green; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.add .content .logo .circle
+{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: 
+    #0096C8;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.add .content .subcontent
+{
+    width: 100%;
+    height: 40px;
+    /* background-color: hotpink; */
+    position: relative;
+    display: flex;
+    top: 20px;
+    font-size: 1.2vmax;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.add .content .add-new
+{
+    width: 15%;
+    height: 30px;
+    background-color: white;
+    position: relative;
+    border: solid 1.2px #8064A2 ;
+    color: #8064A2 ;
+    border-radius: 4px;
+    top: 40px;
+    font-size: 1.2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.testimonial
+{
+    width: 100%;
+    height: 330px;
+    /* background-color: aquamarine; */
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.testimonial .content
+{
+    height: 250px;
+    width: 70%;
+    background-color:#F7F5F9;
+    position: relative;
+
+}
+.testimonial .content .logo
+{
+    height: 40px;
+    width: 25%;
+    /* background-color: pink; */
+    position: relative;
+    display:flex;
+    align-items: center;
+    top: 20px;
+    left: 40px;
+}
+.testimonial .content .logo .circle
+{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color:#8064A2;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.testimonial .subcontent
+{
+    width: 90%;
+    height: 120px;
+    /* background-color: pink; */
+    position: relative;
+    display: flex;
+    top: 40px;
+    left: 40px;
+    font-size: 1.2vmax;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.testimonial .audio
+{
+    height: 40px;
+    width: 50%;
+    /* background-color: #CCC1DA; */
+    position: relative;
+    display: flex;
+    top: 40px;
+    left: 40px;
+    align-items: center;
+    /* border-radius: 4px; */
+}
+.hobby-community
+{
+    width: 100%;
+    height: 420px;
+    background-color: #F7FDFF;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+.hobby-community .caption
+{
+    height: 80px;
+    width: 30%;
+    /* background-color: khaki; */
+    position: relative;
+    display: flex;
+    top: 40px;
+    left: 180px;
+    
+   
+    flex-direction: column;
+}
+.caption .get-started
+{
+    height: 30px;
+    width: 25%;
+    background-color: #8064A2;
+    position: relative;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    color: white;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.hobby-community .pic
+{
+    height: 220px;
+    width: 80%;
+    position: relative;
+    top: 50px;
+    margin: auto;
+}
+.rectangle-3
+{
+    width: 100%;
+    height: 260px;
+    /* background-color:rebeccapurple; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.rectangle-3 .box
+{
+    height: 180px;
+    width: 70%;
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rectangle-3 .box .common
+{
+    height: 180px;
+    width: 20%;
+    /* background-color: red; */
+}
+.rectangle-3 .box .social-media
+{
+    height: 150px;
+    width: 30%;
+    /* background-color: green; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.rectangle-3 .box .common ul li
+{
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+}
+.rectangle-3 .box .common
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.rectangle-3 .box .social-media .menubar
+{
+    position: relative;
+    display: flex;
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    
+    
+    flex-direction: column;
+}
+.rectangle-3 .box .social-media .menubar .logos
+{
+    /* background-color: red; */
+    width: 100%;
+    height: 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 10px;
+    color: #6D747A;
+}
+.rectangle-3 .box .social-media .invite-friends
+{
+    width: 100%;
+    height: 60px;
+    /* background-color: yellowgreen; */
+    position: relative;
+    display: flex;
+    top: 30px;
+    flex-direction: column;
+
+}
+.rectangle-3 .box .social-media .invite-friends input
+{
+    height:25px;
+    width: 80%;
+    position: relative;
+    display: flex;
+    top: 10px;
+    border-radius: 4px 0px 0px 4px;
+    border: none;
+    border: solid 1.2px #8064A2;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.rectangle-3 .footer
+{
+    width: 100%;
+    height: 40px;
+    background-color: 
+    #F7F5F9;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 20px;
+}
+.rectangle-3 .footer .footer-content
+{
+    width: 180px;
+    height: 30px;
+    /* background-color: red; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
